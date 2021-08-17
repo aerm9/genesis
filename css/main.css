@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500&display=swap');
+*{
+    color: inherit;
+    text-decoration: none;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: black;
+    color: #fff;
+}
+
+.hero{
+    background-image: url(../img/genesis-kr-design-gv70-design-hero-desktop-2560x900-ko.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    position: relative;
+    z-index: -1;
+}
+.black-bg{
+    width: 100%;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,0) 50%, rgba(0,0,0,1) 100%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.content{
+    position: absolute;
+    z-index: 3;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    padding-left: 30px;
+    margin: 300px 0 0 200px;
+    z-index: 99;
+}
+.main-content h1,h3{
+    color: #fff;
+}
+.sub-title{
+    margin: 5px 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.main-title{
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.content-title h1{
+    color: #fff;
+}
+.content-bg-01{
+    margin-bottom: 100px;
+}
+.content-bg-01 h3{
+    margin: 10px 0;
+}
+.content-bg-01 p{
+    color: #fff;
+    font-weight: 100;
+    padding: 5px 0;
+}
+.content-bg-01 a{
+    color: #ad7b61;
+}
+.content-bg-01 img{
+    width: 100%;
+}
+
+.sec01{
+    padding: 0 100px;
+}
+.content-title{
+    padding: 100px 0 30px 0;
+}
+
+
+.video-bg video{
+    width: 100%;
+}
+.video-section{
+    position: relative;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+.video-text{
+    position: absolute;
+    left: 100px;
+    top: 300px;
+}
+.video-text>p{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.video-text>h1{
+    color: #ad7b61;
+    font-weight: 300;
+    font-size: 54px;
+    margin: 80px 0 50px 0;
+}
+.video-btn{
+    width: 240px;
+    height: 55px;
+    border: none;
+    color: #333;
+    background-color: #fff;
+}
+.video-btn:hover{
+    background-color: black;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+/* sec02 */
+.sec02{
+    margin-top: 100px;
+    padding: 0 100px;
+}
+.sec02 h1{
+    margin-bottom: 50px;
+    color: #ad7b61;
+}
+.sec02 img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.sec02 a,p{
+    color: whitesmoke;
+    font-weight: 100;
+}
+#a1-1, #a2-1, #a3-1{
+    display: none;
+}
+
+
+
+@media(max-width:767px){
+    .main-content{
+        margin: 300px 0 0 10px;
+    }
+}
+
